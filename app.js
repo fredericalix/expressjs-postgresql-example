@@ -6,8 +6,6 @@ var cookieParser  = require('cookie-parser');
 var bodyParser    = require('body-parser');
 
 
-const apm = require('elastic-apm-node').start({
-})
 var pg       = require('./db');
 
 var routes = require('./routes/routes');
